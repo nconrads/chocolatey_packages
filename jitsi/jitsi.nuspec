@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>jitsi</id>
+    <title>jitsi</title>
+    <version>2.0.4506.10553</version>
+    <authors>Ivov, et. al.</authors>
+    <owners>nconrads</owners>
+    <summary>Jitsi (formerly SIP Communicator) is an audio/video and chat communicator that supports protocols such as SIP, XMPP/Jabber, AIM/ICQ, Windows Live, Yahoo! and many other useful features.</summary>
+    <description>From Wikipedia on 2013-04-18: Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac OS X. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL. 
+--
+Note: Could not locate license URL for jitsi at jitsi.org, so linked to GNU's copy of LGPL 2.1</description>
+    <projectUrl>https://jitsi.org/</projectUrl>
+    <tags>voip messaging desktop-sharing softphone</tags>
+    <copyright>2004-2012 Emil Ivov</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://download.jitsi.org/jitsi/changelogs/changelog-4506.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

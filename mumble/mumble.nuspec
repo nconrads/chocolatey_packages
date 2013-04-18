@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mumble</id>
+    <title>mumble</title>
+    <version>1.2.3.1</version>
+    <authors>Natvig, et. al.</authors>
+    <owners>nconrads</owners>
+    <summary>Mumble is an open source, low-latency, high quality voice chat software primarily intended for use while gaming.</summary>
+    <description>mumble</description>
+    <projectUrl>http://mumble.sourceforge.net</projectUrl>
+    <tags>voice chat voip</tags>
+    <copyright>2005-2013 Natvig, et. al.  See License for more information.</copyright>
+    <licenseUrl>https://github.com/mumble-voip/mumble/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://mumble.sourceforge.net/1.2.3</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
