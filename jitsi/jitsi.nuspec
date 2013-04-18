@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jitsi</id>
-    <title>jitsi</title>
+    <title>Jitsi</title>
     <version>2.0.4506.10553</version>
     <authors>Ivov, et. al.</authors>
     <owners>nconrads</owners>
