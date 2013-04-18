@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>mumble</id>
-    <title>mumble</title>
+    <title>Mumble</title>
     <version>1.2.3.1</version>
     <authors>Natvig, et. al.</authors>
     <owners>nconrads</owners>
