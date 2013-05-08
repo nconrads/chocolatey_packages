@@ -2,8 +2,8 @@
 
 $packageName = 'jitsi' # arbitrary name for the package, used in messages
 $installerType = 'MSI' #only one of these two: exe or msi
-$url = 'https://download.jitsi.org/jitsi/msi/jitsi-2.2-latest-x86.msi' 
-$url64 = 'https://download.jitsi.org/jitsi/msi/jitsi-2.2-latest-x64.msi'
+$url = 'https://download.jitsi.org/jitsi/msi/jitsi-2.2.4603.9615-x86.msi' 
+$url64 = 'https://download.jitsi.org/jitsi/msi/jitsi-2.2.4603.9615-x64.msi'
 $silentArgs = '/quiet' 
 $validExitCodes = @(0) 
 
