@@ -1,25 +1,26 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>blender</id>
-    <title>Blender</title>
-    <version>2.66.1</version>
-    <authors>Blender Foundation</authors>
-    <owners>nconrads</owners>
-    <summary>Blender is 3D creation for everyone, free to use for any purpose.</summary>
-    <description>From Wikipedia on 2013-04-18: Blender is a free and open-source 3D computer graphics software product used for creating animated films, visual effects, interactive 3D applications or video games. Blender's features include 3D modeling, UV unwrapping, texturing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, animating, match moving, camera tracking, rendering, video editing and compositing. It also features a built-in game engine.</description>
-    <projectUrl>http://www.blender.org</projectUrl>
-    <tags>3d rendering modeling animation</tags>
-    <copyright>Blender Foundation</copyright>
-    <licenseUrl>http://download.blender.org/release/GPL-license.txt</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    
-    <dependencies>
-      <dependency id="vcredist2008" version="9.0.30729.1" />
-    </dependencies>
-    <releaseNotes>http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.66a</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+    <metadata>
+        <id>blender</id>
+        <version>2.67.1</version>
+        <title>Blender</title>
+        <authors>Blender Foundation</authors>
+        <owners>nconrads</owners>
+        <licenseUrl>http://download.blender.org/release/GPL-license.txt</licenseUrl>
+        <projectUrl>http://www.blender.org</projectUrl>
+        <iconUrl>https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Blender.svg/200px-Blender.svg.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>From Wikipedia on 2013-04-18: Blender is a free and open-source 3D computer graphics software product used for creating animated films, visual effects, interactive 3D applications or video games. Blender's features include 3D modeling, UV unwrapping, texturing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, animating, match moving, camera tracking, rendering, video editing and compositing. It also features a built-in game engine.</description>
+        <summary>Blender is 3D creation for everyone, free to use for any purpose.</summary>
+        <releaseNotes>http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67a</releaseNotes>
+        <copyright>Blender Foundation</copyright>
+        <tags>3d rendering modeling animation</tags>
+        <dependencies>
+            <dependency id="vcredist2008" version="9.0.30729.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+    </files> 
 </package>
