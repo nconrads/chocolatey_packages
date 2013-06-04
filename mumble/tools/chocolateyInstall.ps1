@@ -1,6 +1,6 @@
 ﻿$packageName = 'mumble' 
 $installerType = 'MSI' 
-$url = 'http://sourceforge.net/projects/mumble/files/Mumble/1.2.3a/mumble-1.2.3a.msi/download' # download url
+$url = 'http://sourceforge.net/projects/mumble/files/Mumble/1.2.4/mumble-1.2.4.msi/download' # download url
 $silentArgs = '/quiet' 
 $validExitCodes = @(0) 
 
