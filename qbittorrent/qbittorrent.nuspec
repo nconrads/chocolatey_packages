@@ -3,7 +3,7 @@
   <metadata>
     <id>qbittorrent</id>
     <title>qBittorrent</title>
-    <version>3.0.10</version>
+    <version>3.0.10.0</version>
     <authors>Christophe Dumez</authors>
     <owners>nconrads</owners>
 	<iconUrl>https://raw.github.com/nconrads/chocolatey_packages/master/qbittorrent/qbittorrent.png</iconUrl> 
