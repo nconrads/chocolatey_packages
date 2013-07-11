@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>qbittorrent</id>
     <title>qBittorrent</title>
-    <version>3.0.9.01</version>
+    <version>3.0.10</version>
     <authors>Christophe Dumez</authors>
     <owners>nconrads</owners>
 	<iconUrl>https://raw.github.com/nconrads/chocolatey_packages/master/qbittorrent/qbittorrent.png</iconUrl> 
