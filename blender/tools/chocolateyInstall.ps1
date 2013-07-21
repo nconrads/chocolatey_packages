@@ -1,7 +1,7 @@
 ﻿$packageName = 'blender' 
 $installerType = 'EXE' 
-$url = 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.67/blender-2.67b-windows32.exe'
-$url64 = 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.67/blender-2.67b-windows64.exe'
+$url = 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.68/blender-2.68-windows32.exe'
+$url64 = 'http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.68/blender-2.68-windows64.exe'
 $silentArgs = '/S' 
 $validExitCodes = @(0) 
 
